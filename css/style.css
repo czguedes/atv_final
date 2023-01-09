@@ -12,14 +12,13 @@
 }
 
 table, td{
-    border: 1px solid transparent;
     border-collapse: collapse;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
 #nav{
-    max-width: 30vw;
+    width: 20%;
     background-color: var(--cor3);
 }
 
@@ -27,13 +26,38 @@ table, td{
     background-color: antiquewhite;
 }
 
-#nav img{
-    border: 1px solid #01261C;
+.foto{
+    background-color: aqua;
+    width: 100%;    
+    /* position: relative; */
+    top: 0;
+    left: 0;
+}
+
+.foto img{
+    border: 5px solid var(--cor2);
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    position: absolute;
+    position: relative;
     top: 0;
-    right: 0;
-    
+    left: 0;
+}
+
+.menu{
+    background-color: blueviolet;
+    /* position: relative; */
+    width: 100%;
+    height: auto;
+    bottom: 0;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: monospace;
+    text-align: center;
+    font-size: 15pt;
+    margin-bottom: 10px;
 }
