@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1: #01261C;
+    --cor2: #0E5944;
+    --cor3: #03A66A;
+    --cor4: #A67153;
+    --cor5: #F5744D;
+}
+
+table, td{
+    border: 1px solid transparent;
+    border-collapse: collapse;
+    width: 100vw;
+    height: 100vh;
+}
+
+#nav{
+    max-width: 30vw;
+    background-color: var(--cor3);
+}
+
+#conteudo{
+    background-color: antiquewhite;
+}
+
+#nav img{
+    border: 1px solid #01261C;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
