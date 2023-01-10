@@ -58,7 +58,7 @@ a{
 }
 
 .menu > a:hover{
-    background-color: #0E5944;
+    background-image: linear-gradient(to right, #0E5944, #0e594400);
     color: #01261C;
 }
 
